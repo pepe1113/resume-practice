@@ -1,0 +1,469 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* CSS RESET end */
+
+body {
+    font-family: "微軟正黑體";
+}
+
+.wrap {
+    width: 1025px;
+    margin: 0 auto;
+    background: #fafafa;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+.header {
+    background: url(./HTML_sketch_export-master/assets/img-headerShape.png) no-repeat;
+    height: 400px;
+    display: flex;
+    padding-top: 125px;
+    margin-bottom: 130px;
+}
+
+.name {
+    text-align: center;
+    margin-left: 135px;
+}
+
+.name h1 {
+    font-size: 42px;
+    line-height: 52px;
+    margin-top: 11px;
+}
+
+.name p {
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 9px;
+    color: #4A4A4A;
+}
+
+.header ul {
+    margin-left: 136px;
+}
+
+.header li {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.header li img {
+    padding-right: 12px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header a:hover {
+    color: yellow;
+}
+
+
+/* skill */
+
+h2 {
+    font-size: 24px;
+    line-height: 32px;
+    color: #1736DC;
+    margin-bottom: 48px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.item img {
+    display: block;
+    margin: 0 auto;
+}
+
+.item h4 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 23px;
+    margin-bottom: 26px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.item ul {
+    width: 220px;
+    color: #4A4A4A;
+    margin: 0 auto;
+}
+
+.item li {
+    font-size: 10px;
+    line-height: 14px;
+    list-style: disc inside;
+}
+
+.item {
+    width: 284px;
+    padding-top: 25px;
+    box-shadow: 0 0 15px #eee;
+    border-radius: 10px;
+    margin: 10px;
+    padding-bottom: 45px;
+}
+
+.orange {
+    border-bottom: #F58D23 solid 6px;
+}
+
+.green {
+    border-bottom: #539E43 solid 6px;
+}
+
+.purple {
+    border-bottom: #6762A6 solid 6px;
+}
+
+
+/* experience */
+
+.expFrame {
+    position: relative;
+    height: 659px;
+}
+
+.startDot {
+    position: absolute;
+    top: 0;
+    left: 496px;
+}
+
+.timeLine {
+    width: 2px;
+    height: 513px;
+    background: #D8D8D8;
+    position: absolute;
+    top: 37px;
+    left: 511px;
+}
+
+.endLine {
+    width: 46px;
+    height: 4px;
+    background: #D8D8D8;
+    position: absolute;
+    top: 551px;
+    left: 489px;
+}
+
+.dot1 {
+    position: absolute;
+    left: 500px;
+    top: 85px;
+}
+
+.dot2 {
+    position: absolute;
+    left: 500px;
+    top: 228px;
+}
+
+.dot3 {
+    position: absolute;
+    left: 500px;
+    top: 371px;
+}
+
+.exp {
+    width: 260px;
+    height: 120px;
+    background: #FFFFFF;
+    border: 1px solid #FB56BF;
+    border-radius: 10px;
+    padding: 12px;
+    position: absolute;
+}
+
+.exp li {
+    color: #4A4A4A;
+    font-size: 12px;
+    letter-spacing: 0.53px;
+    line-height: 16px;
+}
+
+.exp li:nth-child(1) {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.exp li:nth-child(2) {
+    color: #8A1737;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.exp li:nth-child(3) {
+    margin-bottom: 10px;
+}
+
+.exp li:nth-child(4) {
+    font-size: 10px;
+    color: #9B9B9B;
+    letter-spacing: 0.44px;
+    line-height: 18px;
+}
+
+.e1 {
+    left: 537px;
+    top: 83px;
+}
+
+.e2 {
+    text-align: right;
+    left: 200px;
+    top: 226px;
+}
+
+.e3 {
+    left: 537px;
+    top: 369px;
+}
+
+
+/* works */
+
+h3 {
+    font-size: 24px;
+    color: #FB56BF;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 46px;
+}
+
+.worklist {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 98px;
+}
+
+.work {
+    width: 284px;
+    text-decoration: none;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 10px 0 10px;
+}
+
+.work:hover {
+    box-shadow: 1px 1px 5px #9B9B9B;
+}
+
+.work li {
+    font-size: 14px;
+    margin-left: 9px;
+    margin-bottom: 9px;
+}
+
+.work li:nth-child(1) {
+    color: #000000;
+    font-weight: bold;
+}
+
+.work li:nth-child(2) {
+    color: #4A4A4A;
+}
+
+.workpic {
+    height: 150px;
+    margin-bottom: 9px;
+}
+
+.p1 {
+    background: url(./HTML_sketch_export-master/assets/logo-work-1.png) no-repeat #fdb4e3 bottom right;
+}
+
+.p2 {
+    background: url(./HTML_sketch_export-master/assets/logo-work-2.png) no-repeat #424242 center;
+}
+
+.p3 {
+    background: url(./HTML_sketch_export-master/assets/logo-work-3.png) no-repeat #8ad7fa center;
+}
+
+
+/* about */
+
+.about {
+    display: flex;
+    margin-bottom: 74px;
+}
+
+.about img {
+    margin-right: 44px;
+    margin-left: 176px;
+    width: 260px;
+    height: 335px;
+}
+
+.about li {
+    width: 442px;
+    font-size: 14px;
+    color: #4A4A4A;
+    line-height: 26px;
+    margin-top: 30px;
+}
+
+
+/* footer */
+
+.footer {
+    background: url(./HTML_sketch_export-master/assets/img-Looper-bg.png) no-repeat;
+    text-align: center;
+    padding: 34px 0 32px 0;
+}
